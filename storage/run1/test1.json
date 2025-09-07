@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "timestamp": "2025-09-07T19:39:29.300Z",
+  "runId": "run1",
+  "scenarioName": "Happy Path Schedcan uling Appointment for Returning Patient",
+  "scenarioDescription": "Thomas Johnson calls to schedule a follow-up appointment. He provides his phone number, and the system recognizes him as a returning patient. The agent should successfully schedule an appointment while maintaining professional communication.",
+  "criteria": "Agent should handle this scenario appropriately and professionally",
+  "name": "Thomas Johnson",
+  "dob": "03/08/2002",
+  "phone": "195-776-8501",
+  "email": "thomas.johnson@outlook.com",
+  "gender": "Male",
+  "insurance": "Anthem"
+}

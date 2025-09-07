@@ -1,0 +1,14 @@
+{
+  "id": 2,
+  "timestamp": "2025-09-07T19:39:29.300Z",
+  "runId": "run1",
+  "scenarioName": "Returning Patient Appointment Scheduling",
+  "scenarioDescription": "Paul Miller, a returning patient, calls to schedule a follow-up appointment. He provides his phone number and social security number, which should be recognized by the system as part of the returning patient profile.",
+  "criteria": "Agent should recognize Paul Miller as a returning patient, verify details, and successfully schedule an appointment while maintaining professional communication.",
+  "name": "Paul Miller",
+  "dob": "10/09/2002",
+  "phone": "664-289-3586",
+  "email": "paul.miller@hotmail.com",
+  "gender": "Male",
+  "insurance": "Blue Cross Blue Shield"
+}

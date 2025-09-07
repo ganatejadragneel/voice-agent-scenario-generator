@@ -1,0 +1,31 @@
+{
+  "name": "voice-agent-scenario-generator",
+  "version": "1.0.0",
+  "description": "TypeScript-based test scenario generator for voice agents using local Llama3.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "npm run build && node dist/test/test-example.js",
+    "test:ts": "ts-node test/test-example.ts",
+    "browse": "ts-node test/browse-scenarios.ts",
+    "dev": "ts-node --watch test/test-example.ts",
+    "start": "npm run build && node dist/test/test-example.js"
+  },
+  "keywords": ["voice-agent", "testing", "scenarios", "llama", "ollama", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": 3,
+  "timestamp": "2025-09-07T19:39:29.300Z",
+  "runId": "run1",
+  "scenarioName": "Returning Patient Appointment Scheduling",
+  "scenarioDescription": "Steven Martinez, a returning patient, calls to schedule a follow-up appointment. He provides his phone number and the system should recognize him as a returning patient. The agent should ask for preferred dates and times for the appointment.",
+  "criteria": "Agent should handle this scenario appropriately and professionally",
+  "name": "Steven Martinez",
+  "dob": "04/16/1993",
+  "phone": "997-682-7745",
+  "email": "steven.martinez@yahoo.com",
+  "gender": "Non-binary",
+  "insurance": "Cigna"
+}

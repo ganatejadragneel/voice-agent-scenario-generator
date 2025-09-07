@@ -1,0 +1,69 @@
+{
+  "runId": "run1",
+  "timestamp": "2025-09-07T19:39:29.300Z",
+  "totalScenarios": 5,
+  "filePaths": [
+    "storage/run1/test1.json",
+    "storage/run1/test2.json",
+    "storage/run1/test3.json",
+    "storage/run1/test4.json",
+    "storage/run1/test5.json"
+  ],
+  "scenarios": [
+    {
+      "scenarioName": "Happy Path Scheduling Appointment for Returning Patient",
+      "scenarioDescription": "Thomas Johnson calls to schedule a follow-up appointment. He provides his phone number, and the system recognizes him as a returning patient. The agent should successfully schedule an appointment while maintaining professional communication.",
+      "criteria": "Agent should handle this scenario appropriately and professionally",
+      "name": "Thomas Johnson",
+      "dob": "03/08/2002",
+      "phone": "195-776-8501",
+      "email": "thomas.johnson@outlook.com",
+      "gender": "Male",
+      "insurance": "Anthem"
+    },
+    {
+      "scenarioName": "Returning Patient Appointment Scheduling",
+      "scenarioDescription": "Paul Miller, a returning patient, calls to schedule a follow-up appointment. He provides his phone number and social security number, which should be recognized by the system as part of the returning patient profile.",
+      "criteria": "Agent should recognize Paul Miller as a returning patient, verify details, and successfully schedule an appointment while maintaining professional communication.",
+      "name": "Paul Miller",
+      "dob": "10/09/2002",
+      "phone": "664-289-3586",
+      "email": "paul.miller@hotmail.com",
+      "gender": "Male",
+      "insurance": "Blue Cross Blue Shield"
+    },
+    {
+      "scenarioName": "Returning Patient Appointment Scheduling",
+      "scenarioDescription": "Steven Martinez, a returning patient, calls to schedule a follow-up appointment. He provides his phone number and the system should recognize him as a returning patient. The agent should ask for preferred dates and times for the appointment.",
+      "criteria": "Agent should handle this scenario appropriately and professionally",
+      "name": "Steven Martinez",
+      "dob": "04/16/1993",
+      "phone": "997-682-7745",
+      "email": "steven.martinez@yahoo.com",
+      "gender": "Non-binary",
+      "insurance": "Cigna"
+    },
+    {
+      "scenarioName": "Returning Patient with No Scheduled Appointments",
+      "scenarioDescription": "Michael Martin calls to schedule an appointment. He mentions he doesn't have any upcoming appointments scheduled, but wants to check if there are any available. The agent should recognize him as a returning patient and guide him through the process of finding available slots.",
+      "criteria": "Agent should recognize returning patient Michael Martin, verify his availability, and successfully provide available scheduling options while maintaining professional communication.",
+      "name": "Michael Martin",
+      "dob": "09/10/2003",
+      "phone": "511-233-8723",
+      "email": "michael.martin@hotmail.com",
+      "gender": "Male",
+      "insurance": "Medicaid"
+    },
+    {
+      "scenarioName": "Error Handling with Patient Information",
+      "scenarioDescription": "Donna Clark, a female patient, calls and asks if she can get her test results earlier than expected. She provides some incorrect information about her appointment date and time. The agent should recognize the error, ask for clarification, and maintain professional communication.",
+      "criteria": "Agent should handle this scenario appropriately and professionally",
+      "name": "Donna Clark",
+      "dob": "04/28/1996",
+      "phone": "493-861-9400",
+      "email": "donna.clark@yahoo.com",
+      "gender": "Female",
+      "insurance": "Aetna"
+    }
+  ]
+}

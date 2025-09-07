@@ -1,0 +1,14 @@
+{
+  "id": 4,
+  "timestamp": "2025-09-07T19:39:29.300Z",
+  "runId": "run1",
+  "scenarioName": "Returning Patient with No Scheduled Appointments",
+  "scenarioDescription": "Michael Martin calls to schedule an appointment. He mentions he doesn't have any upcoming appointments scheduled, but wants to check if there are any available. The agent should recognize him as a returning patient and guide him through the process of finding available slots.",
+  "criteria": "Agent should recognize returning patient Michael Martin, verify his availability, and successfully provide available scheduling options while maintaining professional communication.",
+  "name": "Michael Martin",
+  "dob": "09/10/2003",
+  "phone": "511-233-8723",
+  "email": "michael.martin@hotmail.com",
+  "gender": "Male",
+  "insurance": "Medicaid"
+}

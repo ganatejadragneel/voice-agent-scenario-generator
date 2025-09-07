@@ -1,0 +1,14 @@
+{
+  "id": 5,
+  "timestamp": "2025-09-07T19:39:29.300Z",
+  "runId": "run1",
+  "scenarioName": "Error Handling with Patient Information",
+  "scenarioDescription": "Donna Clark, a female patient, calls and asks if she can get her test results earlier than expected. She provides some incorrect information about her appointment date and time. The agent should recognize the error, ask for clarification, and maintain professional communication.",
+  "criteria": "Agent should handle this scenario appropriately and professionally",
+  "name": "Donna Clark",
+  "dob": "04/28/1996",
+  "phone": "493-861-9400",
+  "email": "donna.clark@yahoo.com",
+  "gender": "Female",
+  "insurance": "Aetna"
+}
